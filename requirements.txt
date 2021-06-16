@@ -3,3 +3,4 @@ fastai
 #fastai.metrics
 fastbook
 # pillow<7
+fastai.text.all
