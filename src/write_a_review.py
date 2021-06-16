@@ -3,7 +3,7 @@ import streamlit as st
 from fastai.text.all import *
 from fastai.learner import load_learner
 
-model_here = load_learner("./imdb1.pkl")
+model_here = load_learner("./src/imdb1.pkl")
 
 TEXT = "I am gonna start BTC mining,"
 
