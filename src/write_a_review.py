@@ -1,6 +1,6 @@
 # from fastai import *
 import streamlit as st
-from fastai.text.all import *
+from fastai import *
 from fastai.learner import load_learner
 
 model_here = load_learner("./src/imdb1.pkl")
